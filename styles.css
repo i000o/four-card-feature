@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* RESETS */ 
+
+a:link {
+    color: inherit; /* no blue default link color */ 
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit; /* no purple visited links */ 
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* GLOBAL */ 
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-weight: 200, 400, 600; 
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer {
+    font-size: 0.7em;
+    display: flex; 
+    justify-content: center;
+}
+
+/* END OF GLOBALS */ 
+
+section.header {
+    text-align: center;
+    flex-flow: 0 0 auto;
+    margin: 130px 20px 30px 20px;
+    height: auto;
+}
+
+section.header h1, h2 {
+    font-size: 1.8em;
+}
+
+section.header h1 {
+    font-weight: 200;
+    margin: 0px;
+    color: hsl(229, 6%, 66%);
+}
+
+section.header h2 {
+    margin: 0px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 400;
+}
+
+section.header h3 {
+    margin: 10px 0;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    order: -1
+}
+
+/* ORDER PROPERTY NTH CHILD? */ 
