@@ -24,6 +24,9 @@ body {
     font-family: 'poppins', sans-serif;
     font-weight: 200, 400, 600; 
     background-color: hsl(0, 0%, 98%);
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -37,34 +40,79 @@ footer {
 
 /* END OF GLOBALS */ 
 
-section.header {
+header {
     text-align: center;
     flex-flow: 0 0 auto;
-    margin: 130px 20px 30px 20px;
+    margin: 110px 20px 80px 20px;
     height: auto;
 }
 
-section.header h1, h2 {
+header h1, h2 {
     font-size: 1.8em;
 }
 
-section.header h1 {
+header h1 {
     font-weight: 200;
     margin: 0px;
     color: hsl(229, 6%, 66%);
 }
 
-section.header h2 {
+header h2 {
     margin: 0px;
     color: hsl(234, 12%, 34%);
     font-weight: 400;
 }
 
-section.header h3 {
+header h3 {
     margin: 10px 0;
     font-weight: 200;
     color: hsl(229, 6%, 66%);
     order: -1
 }
 
-/* ORDER PROPERTY NTH CHILD? */ 
+main section.L-column {
+    order: -1; /* omg this was so hard I did it */
+}
+
+article {
+    box-shadow: 0 5px 10px 5px rgba(163, 165, 174, 40%);
+    padding: 10px 20px;
+    border-top: solid 5px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    color:hsl(229, 6%, 66%);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin: 10px 10px 10px 250px;
+}
+
+article.supervisor {
+    border-top-color: hsl(180, 62%, 55%);
+}
+
+article.team-builder {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+article.karma {
+    border-top-color: hsl(34, 97%, 64%);
+    display: inline-block; /* stops margin-collapsing with team-builder article card */ 
+}
+
+article.calculator {
+    border-top-color: hsl(212, 86%, 64%);
+}
