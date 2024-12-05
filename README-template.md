@@ -40,6 +40,13 @@ This design needs to be responsive.
 - I wrote down and planned on paper a little the HTML elements I could see/would use. I decided to plan a Flexbox layout with CSS since I had recently practiced this on a deeper level and felt more confident - I wanted to apply this into a project.
 - I initialised a new git repository with ease this time!
 - I was able to implement the `order` property for the first time for the mobile version. Since I had planned my 3-column flex layout, each card had a left-to-right order in the HTML until I was able to rearrange it in the CSS for mobile. This was really satisfying and so useful to be able to depend on now.
+- I'm getting better at linking images quickly.
+- I finished the mobile so much faster than I thought I would - I was proud. It looked good and I did it quite efficiently.
+- FIX MOBILE LESS THAN 425PX IT GETS BROKEN
+
+### Time taken
+
+- Mobile: 3 hrs
 
 ### Built with
 

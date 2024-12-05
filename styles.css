@@ -30,6 +30,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    min-width: 100vw;
 }
 
 footer {
@@ -42,13 +44,12 @@ footer {
 
 header {
     text-align: center;
-    flex-flow: 0 0 auto;
     margin: 110px 20px 80px 20px;
-    height: auto;
 }
 
 header h1, h2 {
-    font-size: 1.8em;
+    /* font-size: 1.8em; */ 
+    font-size: 1.3em;
 }
 
 header h1 {
@@ -67,7 +68,7 @@ header h3 {
     margin: 10px 0;
     font-weight: 200;
     color: hsl(229, 6%, 66%);
-    order: -1
+    font-size: 1em; 
 }
 
 main section.L-column {
@@ -80,10 +81,11 @@ article {
     border-top: solid 5px;
     border-radius: 10px;
     margin: 20px;
+    width: 18em;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: hsl(234, 12%, 34%);
     font-weight: 600;
     margin-top: 15px;
@@ -94,10 +96,12 @@ p {
     color:hsl(229, 6%, 66%);
     margin-top: 10px;
     margin-bottom: 30px;
+    font-size: 0.8em;
 }
 
 img {
-    margin: 10px 10px 10px 250px;
+    margin: 10px 10px 10px 180px;
+    max-width: fit-content;
 }
 
 article.supervisor {
@@ -115,4 +119,8 @@ article.karma {
 
 article.calculator {
     border-top-color: hsl(212, 86%, 64%);
+}
+
+@media screen and (min-width: 425px) {
+    
 }
