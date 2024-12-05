@@ -42,7 +42,8 @@ This design needs to be responsive.
 - I was able to implement the `order` property for the first time for the mobile version. Since I had planned my 3-column flex layout, each card had a left-to-right order in the HTML until I was able to rearrange it in the CSS for mobile. This was really satisfying and so useful to be able to depend on now.
 - I'm getting better at linking images quickly.
 - I finished the mobile so much faster than I thought I would - I was proud. It looked good and I did it quite efficiently.
-- FIX MOBILE LESS THAN 425PX IT GETS BROKEN
+- I did 425px first - Was this a mistake?
+- I think the margins are too narrow on mine
 
 ### Time taken
 

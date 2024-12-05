@@ -68,7 +68,7 @@ header h3 {
     margin: 10px 0;
     font-weight: 200;
     color: hsl(229, 6%, 66%);
-    font-size: 1em; 
+    font-size: 0.8em; 
 }
 
 main section.L-column {
@@ -85,7 +85,7 @@ article {
 }
 
 h4 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: hsl(234, 12%, 34%);
     font-weight: 600;
     margin-top: 15px;
@@ -96,12 +96,12 @@ p {
     color:hsl(229, 6%, 66%);
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 0.8em;
+    margin-right: 30px;
+    font-size: 0.7em;
 }
 
 img {
-    margin: 10px 10px 10px 180px;
-    max-width: fit-content;
+    margin: 0px 0px 0px 180px;
 }
 
 article.supervisor {
@@ -121,6 +121,37 @@ article.calculator {
     border-top-color: hsl(212, 86%, 64%);
 }
 
-@media screen and (min-width: 425px) {
-    
+@media screen and (max-width: 425px) {
+
+    br {
+        display: none;
+    }
 }
+
+@media screen and (min-width: 426px) {
+
+    header h1, h2 {
+        margin: 0;
+    }
+
+    header h3 {
+        font-size: 0.6em;
+        height: auto;
+        width: auto;
+    }
+
+    main {
+        display: flex; 
+        flex-flow: column wrap; 
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        gap: 0px;
+    }
+
+    footer {
+        display: none; 
+        justify-content: center;
+        align-items: flex-end;
+    }
+} 
