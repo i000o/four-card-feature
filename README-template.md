@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
 ## Table of contents
 
@@ -16,27 +16,17 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This challenge is to create a four-card feature page for both mobile and desktop. The page includes a header, with a 3-column layout, where cards are aligned at different positions creating a plus-like cross on the page.
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
+This design needs to be responsive.
 
 ### Screenshot
 
 ![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -45,18 +35,18 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+- I did download Sass as a pre-processor, but I haven't yet used it.
+- I started with a mobile first approach to practice this workflow as I've tended to be more comfortable with the desktop-first workflow previously.
+- I wrote down and planned on paper a little the HTML elements I could see/would use. I decided to plan a Flexbox layout with CSS since I had recently practiced this on a deeper level and felt more confident - I wanted to apply this into a project.
+- I initialised a new git repository with ease this time!
+- I was able to implement the `order` property for the first time for the mobile version. Since I had planned my 3-column flex layout, each card had a left-to-right order in the HTML until I was able to rearrange it in the CSS for mobile. This was really satisfying and so useful to be able to depend on now.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -67,16 +57,20 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
+
+I used the order property for the first time and succeeded! At first, it wasn't targetting correctly, but I cleaned up my HTML with more specific elements and then it worked so simple aaaah so happy what a useful tool
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -97,11 +91,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Iman Osman](https://www.your-site.com)
+- Frontend Mentor - [@i000o](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
