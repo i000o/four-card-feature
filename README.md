@@ -32,7 +32,6 @@ I approached this with a mobile-first workflow to practice this some more. I ini
 I'm happy with the final design, but I'd like to gain confidence in knowing how to tackle problems with less detours, but I know this will come with practice and time. The design I made is fluid, accurate and works well. I'm happy with the code I wrote. I'd like to learn how to use Sass fully.
 
 ![](./screenshots/four-card-feature-desktop.png)
-![](./screenshots/four-card-feature-mobile.png)
 
 :jigsaw: Live Site URL: (https://i000o.github.io/four-card-feature/)  
 :pencil2: Solution URL: (https://www.frontendmentor.io/solutions/four-card-feature-grid-mobile-first-kTo-3mdrwy)
@@ -42,11 +41,11 @@ I'm happy with the final design, but I'd like to gain confidence in knowing how 
 ### CSS Flexbox
 
 - I started with a mobile first approach to practice this workflow as I've tended to be more comfortable with the desktop-first workflow previously.
-- I wrote down and planned on paper a little the HTML elements I could see/would use. I decided to plan a Flexbox layout with CSS since I had recently practiced this on a deeper level and felt more confident - I wanted to apply this into a project.
+- I planned out my HTML elements on paper. I initially decided to use a Flexbox layout with CSS since I had recently expanded my learning on this and wanted to implement it here.
 - I initialised a new git repository from the command line with ease this time!
-- I was able to implement the `order` property for the first time for the mobile version. Since I had planned my 3-column flex layout, each card had a left-to-right order in the HTML until I was able to rearrange it in the CSS for mobile. This was really satisfying and so useful to be able to depend on now.
+- I was able to implement the `order` property for the first time for the mobile version. This was really satisfying and so useful to be able to depend on now.
 - I noticed that I'm getting better at linking images quickly.
-- I finished the mobile so much faster than I thought I would - I was proud. It looked good and I did it quite efficiently.
+- I finished the mobile so much faster than I thought I would - I was proud. It looked good and I completed it efficiently.
 - I mistakenly started with 425px first in my media queries. Now I know to always start with the smallest viewport and use `min-width` in media queries from there.
 - Flexbox was not working well on my desktop design. The content was overflowing and I didn't know what code to write to help it shrink. I wanted to use `flex-shrink` and `flex-basis` but wasn't sure which basis to set to allow proportionate shrinking. I also didn't know what, if any, `width`/`min-width`/`max-width` properties to use because the content seemed to default to overflow. I tried many options with no luck, including `overflow` and `gap`. I felt no control over my layout at this point, so I want to try Grid instead. I wondered how I could have anticipated this sooner to save myself time and work.
 
@@ -59,14 +58,14 @@ I'm happy with the final design, but I'd like to gain confidence in knowing how 
 sass input.scss output.css
 ```
 
-- Sass! I installed Sass syntax highlighting and the compiler to try Sass with this CSS file. I can create modules, nesting and variables to help sustian my code better.
-- I wrote in some Sass with modules, nesting and variables, but once I used the Watch Sass button on VSCode, it stayed on Watching... forever. It also craeted an `input.css` as a result which I didn't ask for. I had programmed `sass input.scss output.css` so I don't know why it did this. I abandoned it for now, but will try again because I like the idea of Sass and I'd like to use it in my code as CSS files get more complex and long.
+- I installed Sass syntax highlighting and the compiler to try Sass with this CSS file.
+- I wrote in some Sass with modules, nesting and variables, but once I used the Watch Sass button on VSCode, it stayed on Watching... forever. It also created an `input.css` as a result which I didn't expect. I had programmed `sass input.scss output.css` so I don't know why it did this. I abandoned it for now, but will try again because I like the idea of Sass and I'd like to use it in my code as CSS files get more complex and long.
 
 ### Git
 
 - I learnt new Git commands:
 
-To remove a github repo file if you didn’t add it to the gitignore at the beginning.
+To remove a github repo file if you didn’t add it to the .gitignore at the beginning.
 
 ```
 git rm —cached file-name
@@ -126,4 +125,4 @@ git checkout HEAD — filename
 
 - [Learn Sass](https://sass-lang.com/guide/) - Help me with introductory Sass syntax.
 - [W3C Sass](https://www.w3schools.com/sass/sass_intro.asp) - Extended knowledge on Sass.
-- [Grid] (https://www.joshwcomeau.com/css/interactive-guide-to-grid/) - More in-depth dynamic article on CSS Grid.
+- [Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/) - More in-depth dynamic article on CSS Grid.
