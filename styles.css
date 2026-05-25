@@ -42,7 +42,6 @@ header {
 }
 
 header h1, h2 {
-    /* font-size: 1.8em; */ 
     font-size: 1.3em;
 }
 
@@ -66,7 +65,7 @@ header h3 {
 }
 
 main section.L-column {
-    order: -1; /* omg this was so hard I did it */
+    order: -1; 
 }
 
 article {

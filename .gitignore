@@ -13,3 +13,17 @@
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
+
+# ignores all .md files
+.md
+
+# does not ignore the README.md file
+!README.md
+
+*.css.map
+
+*.scss
+
+input.css
+
+output.css
