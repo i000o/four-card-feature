@@ -14,6 +14,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Lessons](#lessons)
 - [Take forward](#take-forward)
 - [Useful resources](#useful-resources)
+- [Refactor](#refactor)
 
 ## Overview
 
@@ -126,3 +127,7 @@ git checkout HEAD — filename
 - [Learn Sass](https://sass-lang.com/guide/) - Help me with introductory Sass syntax.
 - [W3C Sass](https://www.w3schools.com/sass/sass_intro.asp) - Extended knowledge on Sass.
 - [Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/) - More in-depth dynamic article on CSS Grid.
+
+## Refactor
+
+- I refactored the CSS in this project to Tailwind to practice with the goal of getting faster, holding classes in my memory and gaining confidence with breakpoint prefixes. This went well here.
