@@ -9,7 +9,7 @@
 </head>
 
 <body class="font-[Poppins] font-extralight font-normal font-semibold bg-[#fafafa]">
-    <header class="text-center mx-[20px] mt-[100px] mb-[80px] lg: mb-[40px]">
+    <header class="text-center mx-[20px] mt-[100px] mb-[80px] lg:mb-[40px]">
       <div> <!-- for centering in desktop -->
         <h1 class="font-extralight text-[#a3a5ae]">Reliable, efficient delivery</h1>
         <h2 class="text-[#4c4e61] font-normal"><strong>Powered by Technology</strong></h2>
@@ -17,8 +17,8 @@
       </div>
     </header>
 
-    <main class="flex flex-col justify-evenly items-center min-w-[100vw]">
-      <section class="mid-column">
+    <main class="flex flex-col justify-evenly items-center min-w-[100vw] lg:grid lg:place-content-center lg:grid-cols-[3] lg:max-w-[60vw] min-[1025px]:grid-cols-[7]">
+      <section class="lg:col-[2] min-[1025px]:col-[3]">
         <article class="border-t-[#ea5353]">
           <h4>Team Builder</h4>
           <p>Scans our talent network to create the optimal team for your project
@@ -34,7 +34,7 @@
         </article>
       </section>
 
-      <section class="order-[-1]">
+      <section class="order-[-1] lg:col-[1] min-[1025px]:col-[4]">
         <article class="border-t-[#45d3d3]">
           <h4>Supervisor</h4>
           <p>Monitors activity to identify project roadblocks</p>
@@ -42,7 +42,7 @@
         </article>
       </section>
 
-      <section class="R-column">
+      <section class="lg:col-[3] min-[1025px]:col-[5]">
         <article class="border-t-[#549ef2]"> 
           <h4>Calculator</h4>
           <p>Uses data from past projects to provide better delivery estimates</p>
