@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import 'tailwindcss'; 
+
+header h1, header h2 { 
+    @apply text-[1.3em] m-[0];
+}
+
+article { 
+    @apply py-[10px] px-[20px] m-[20px] w-[18em] rounded-[10px] border-t-[5px] shadow-[0_5px_10px_5px_rgba(163,165,174,0.4)]; 
+}
+
+h4 { 
+    @apply text-[1.1wm] text-[#4c4e61] font-semibold mt-[15px] mb-[5px]; 
+}
+
+p { 
+    @apply text-[#a3a5ae] mt-[10px] mb-[30px] mr-[30px] text-[0.7em]; 
+}
+
+img { 
+    @apply m-[0_0_0_180px]; 
+}
